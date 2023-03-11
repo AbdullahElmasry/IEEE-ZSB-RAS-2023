@@ -1,26 +1,28 @@
+// Online C compiler to run C program online
 #include <stdio.h>
 
-int main(){
+int main() {
+    int i=5;
+    int arr[] = {1, 2, 3, 4, 5, 6, 3, 4, 1, 8, 9, 7, 8, 4, 8};
+    int arrLen = sizeof arr / sizeof arr[0];
+    
 
-    int arr[] = {1, 2, 3, 4, 5, 6, 3, 4, 1, 8, 9, 7, 8};
-
-    for(int i = 0; i < 13; i++){
-
-        int count = 0;
-        
-        for(int x = 0; x < 13; x++){
-        
-            if(arr[i] == arr[x] && i != x){
-        
-                count = 1;
-        
+  for (i = 0 ; i<arrLen; i++)
+  {
+      int counter = 0;
+      for (int x = 0 ; x<arrLen; x++){
+          
+            if(arr[i] == arr[x]  && i != x){
+                counter = 1;
+                
             }
-        
-        }
-        if(count == 0){
-
-
-            printf("%-4d", arr[i]);
-        }
-    }
+          
+      }
+       
+       if (counter == 0){
+           printf("%d",arr[i]);
+       }
+  };
+    
+    return 0;
 }
