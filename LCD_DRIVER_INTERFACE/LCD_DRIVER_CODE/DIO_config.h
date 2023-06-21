@@ -1,4 +1,4 @@
-//######################################################################/
+/*  *///######################################################################/
 //############### Name : Abdullah Elmasry ##############################/
 //############### SW   : DIO              ##############################/
 //############### Version : 1.00          ##############################/
@@ -67,7 +67,7 @@
 #define DIO_u8_PB2_INITIAL_VALUE                        DIO_U8_OUTPUT_LOW
 #define DIO_u8_PB3_INITIAL_VALUE                        DIO_U8_OUTPUT_LOW
 #define DIO_u8_PB4_INITIAL_VALUE                        DIO_U8_OUTPUT_LOW
-#define DIO_u8_PB5_INITIAL_VALUE                       	DIO_U8_OUTPUT_LOW
+#define DIO_u8_PB5_INITIAL_VALUE                        DIO_U8_OUTPUT_LOW
 #define DIO_u8_PB6_INITIAL_VALUE                        DIO_U8_OUTPUT_LOW
 #define DIO_u8_PB7_INITIAL_VALUE                        DIO_U8_OUTPUT_LOW
 /*PORTC*/
@@ -80,14 +80,14 @@
 #define DIO_u8_PC6_INITIAL_VALUE                        DIO_U8_INPUT_FLOATING
 #define DIO_u8_PC7_INITIAL_VALUE                        DIO_U8_INPUT_FLOATING
 /*PORTD*/
-#define DIO_u8_PD0_INITIAL_VALUE                        DIO_U8_INPUT_FLOATING
-#define DIO_u8_PD1_INITIAL_VALUE                        DIO_U8_INPUT_FLOATING
-#define DIO_u8_PD2_INITIAL_VALUE                        DIO_U8_INPUT_FLOATING
-#define DIO_u8_PD3_INITIAL_VALUE                        DIO_U8_INPUT_FLOATING
-#define DIO_u8_PD4_INITIAL_VALUE                        DIO_U8_INPUT_FLOATING
-#define DIO_u8_PD5_INITIAL_VALUE                        DIO_U8_INPUT_FLOATING
-#define DIO_u8_PD6_INITIAL_VALUE                        DIO_U8_INPUT_FLOATING
-#define DIO_u8_PD7_INITIAL_VALUE                        DIO_U8_INPUT_FLOATING
+#define DIO_u8_PD0_INITIAL_VALUE                        DIO_u8_OUTPUT_LOW
+#define DIO_u8_PD1_INITIAL_VALUE                        DIO_u8_OUTPUT_LOW
+#define DIO_u8_PD2_INITIAL_VALUE                        DIO_u8_OUTPUT_LOW
+#define DIO_u8_PD3_INITIAL_VALUE                        DIO_u8_OUTPUT_LOW
+#define DIO_u8_PD4_INITIAL_VALUE                        DIO_u8_OUTPUT_LOW
+#define DIO_u8_PD5_INITIAL_VALUE                        DIO_u8_OUTPUT_LOW
+#define DIO_u8_PD6_INITIAL_VALUE                        DIO_u8_OUTPUT_LOW
+#define DIO_u8_PD7_INITIAL_VALUE                        DIO_u8_OUTPUT_LOW
 
 
 #endif
