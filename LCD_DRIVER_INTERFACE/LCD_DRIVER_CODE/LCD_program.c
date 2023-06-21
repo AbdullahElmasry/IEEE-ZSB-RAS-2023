@@ -21,14 +21,14 @@
 
 void LCD_voidInit(void)
 {
-	_delay_ms(40);
+	_delay_ms(35);
 	/* Function Set Cmnd */
 	LCD_voidSendCmnd(0b00111000);
-	_delay_ms(45);
+	_delay_us(40);
 	LCD_voidSendCmnd(0b00001111);
-	_delay_ms(45);
+	_delay_us(40);
 	LCD_voidSendCmnd(0b00000001);
-	_delay_ms(3);
+	_delay_ms(2);
 	LCD_voidSendCmnd(0b00000110);
 }
 
