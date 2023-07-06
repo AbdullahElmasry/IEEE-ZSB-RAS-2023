@@ -62,4 +62,23 @@ void LCD_voidSendChar(u8 Copy_u8Char)
 		DIO_u8SetPinValue(LCD_u8_CONTROLE_PORT , LCD_u8_E_PIN ,DIO_u8_LOW); // portA, Pin2 , LOW
 }
 
+u8 LCD_u8GoToXY(u8 Copy_u8LineNum, u8 Copy_u8Location)
+{
+	u8 Local_u8ErrorState = STD_TYPES_OK;
+	if(Copy_u8Location <= 39)
+	{
+		switch (Copy_u8LineNum)
+		{
+			case LCD_u8_LINE1 : LCD_voidSendCmnd(0x80+Copy_u8Location);break;
+			case LCD_u8_LINE2 : LCD_voidSendCmnd(0xc0+Copy_u8Location);break;
+			default : Local_u8ErrorState = STD_TYPES_NOK;
+		}
+	}
+	else
+	{
+		Local_u8ErrorState = STD_TYPES_NOK;
+	}
+	return Local_u8ErrorState;
+}
+
 

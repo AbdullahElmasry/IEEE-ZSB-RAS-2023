@@ -345,70 +345,70 @@ u8 DIO_u8SetPortDirection(u8 Copy_u8PortId, u8 Copy_u8PortDirection)
 	return STD_TYPES_OK;
 }
 
-// u8 DIO_u8SetPortValue(u8 Copy_u8PortId, u8 Copy_u8PortValue)
-// {
-// 	u8 Local_u8ErrorState = STD_TYPES_OK;
-// 	if (Copy_u8PortId <= DIO_u8_PORTD)
-// 	{
-// 		switch (Copy_u8PortId)
-// 		{
-// 		case DIO_u8_PORTA:
-// 			switch (Copy_u8PortValue)
-// 			{
-// 			case DIO_u8_LOW:
-// 				DIO_u8_PORTA_REG = DIO_u8PortLow;
-// 				break;
-// 			case DIO_u8_HIGH:
-// 				DIO_u8_PORTA_REG = DIO_u8PortHigh;
-// 				break;
-// 			}
-// 			break;
-
-// 		case DIO_u8_PORTB:
-// 			switch (Copy_u8PortValue)
-// 			{
-// 			case DIO_u8_LOW:
-// 				DIO_u8_PORTB_REG = DIO_u8PortLow;
-// 				break;
-// 			case DIO_u8_HIGH:
-// 				DIO_u8_PORTB_REG = DIO_u8PortHigh;
-// 				break;
-// 			}
-// 			break;
-
-// 		case DIO_u8_PORTC:
-// 			switch (Copy_u8PortValue)
-// 			{
-// 			case DIO_u8_LOW:
-// 				DIO_u8_PORTC_REG = DIO_u8PortLow;
-// 				break;
-// 			case DIO_u8_HIGH:
-// 				DIO_u8_PORTC_REG = DIO_u8PortHigh;
-// 				break;
-// 			}
-// 			break;
-
-// 		case DIO_u8_PORTD:
-// 			switch (Copy_u8PortValue)
-// 			{
-// 			case DIO_u8_LOW:
-// 				DIO_u8_PORTD_REG = DIO_u8PortLow;
-// 				break;
-// 			case DIO_u8_HIGH:
-// 				DIO_u8_PORTD_REG = DIO_u8PortHigh;
-// 				break;
-// 			}
-// 			break;
-// 		}
-// 	}
-
-// 	else
-// 	{
-// 		Local_u8ErrorState = STD_TYPES_NOK;
-// 	}
-
-// 	return Local_u8ErrorState;
-// }
+//u8 DIO_u8SetPortValue(u8 Copy_u8PortId, u8 Copy_u8PortValue)
+//{
+//	u8 Local_u8ErrorState = STD_TYPES_OK;
+//	if (Copy_u8PortId <= DIO_u8_PORTD)
+//	{
+//		switch (Copy_u8PortId)
+//		{
+//		case DIO_u8_PORTA:
+//			switch (Copy_u8PortValue)
+//			{
+//			case DIO_u8_LOW:
+//				DIO_u8_PORTA_REG = DIO_u8PortLow;
+//				break;
+//			case DIO_u8_HIGH:
+//				DIO_u8_PORTA_REG = DIO_u8PortHigh;
+//				break;
+//			}
+//			break;
+//
+//		case DIO_u8_PORTB:
+//			switch (Copy_u8PortValue)
+//			{
+//			case DIO_u8_LOW:
+//				DIO_u8_PORTB_REG = DIO_u8PortLow;
+//				break;
+//			case DIO_u8_HIGH:
+//				DIO_u8_PORTB_REG = DIO_u8PortHigh;
+//				break;
+//			}
+//			break;
+//
+//		case DIO_u8_PORTC:
+//			switch (Copy_u8PortValue)
+//			{
+//			case DIO_u8_LOW:
+//				DIO_u8_PORTC_REG = DIO_u8PortLow;
+//				break;
+//			case DIO_u8_HIGH:
+//				DIO_u8_PORTC_REG = DIO_u8PortHigh;
+//				break;
+//			}
+//			break;
+//
+//		case DIO_u8_PORTD:
+//			switch (Copy_u8PortValue)
+//			{
+//			case DIO_u8_LOW:
+//				DIO_u8_PORTD_REG = DIO_u8PortLow;
+//				break;
+//			case DIO_u8_HIGH:
+//				DIO_u8_PORTD_REG = DIO_u8PortHigh;
+//				break;
+//			}
+//			break;
+//		}
+//	}
+//
+//	else
+//	{
+//		Local_u8ErrorState = STD_TYPES_NOK;
+//	}
+//
+//	return Local_u8ErrorState;
+//}
 
 u8 DIO_u8SetPortValue(u8 Copy_u8PortId, u8 Copy_u8PortVlaue)
 {
