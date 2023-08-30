@@ -44,7 +44,7 @@ void TIMERS_voidTimer0Init(void)
 
 	/* Set Prescaler Value CLK/8 */
 	CLR_BIT(TIMERS_u8_TCCR0_REG,2);
-	CLR_BIT(TIMERS_u8_TCCR0_REG,1);
+	SET_BIT(TIMERS_u8_TCCR0_REG,1);
 	CLR_BIT(TIMERS_u8_TCCR0_REG,0);
 }
 
